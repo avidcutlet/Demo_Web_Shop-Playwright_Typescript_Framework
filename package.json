@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "date-fns": "^4.1.0",
+    "loglevel": "^1.9.2",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^10.2.0",
+    "@playwright/test": "^1.58.1",
+    "@types/date-fns": "^2.5.3",
+    "@types/loglevel": "^1.5.4",
+    "@types/node": "^25.2.1",
+    "allure-js-commons": "^3.2.1",
+    "allure-playwright": "^3.2.1"
+  },
+  "scripts": {}
+}
