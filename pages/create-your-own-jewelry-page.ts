@@ -16,8 +16,8 @@ export class CreateYourOwnJewelryPage {
     this.elementKeyboardActionUtil = new ElementKeyboardActionUtil(page);
 
     this.createYourOwnJewelryHeader = page.getByRole('heading', { name: 'Create Your Own Jewelry' });
-    this.lengthInCm = page.locator('input[id^="product_attribute"]');
-    this.addToCartBtn = page.getByRole('button', { name: 'Add to cart' });
+    this.lengthInCm = page.locator('#product_attribute_71_10_16');
+    this.addToCartBtn = page.locator('#add-to-cart-button-71');
   }
 
   async verifyCreateYourOwnJewelryPageIsDisplayed(): Promise<string | null> {

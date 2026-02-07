@@ -12,7 +12,8 @@ export class BuildYourOwnCheapComputerPage {
     this.elementMouseActionUtil = new ElementMouseActionUtil(page);
 
     this.buildYourOwnCheapComputerHeader = page.getByRole('heading', { name: 'Build your own cheap computer' });
-    this.addToCartBtn = page.getByRole('button', { name: 'Add to cart' });
+    this.addToCartBtn = page.locator('#add-to-cart-button-72');
+
   }
 
   async verifyBuildYourOwnCheapComputerPageIsDisplayed(): Promise<string | null> {

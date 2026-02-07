@@ -2,21 +2,21 @@ import { Page, Locator } from '@playwright/test';
 
 import { ElementMouseActionUtil } from '@utils/element-mouse-action-util';
 
-export class ComputersPage {
+export class DesktopsPage {
   private elementMouseActionUtil: ElementMouseActionUtil;
 
-  private desktopHeader: Locator;
+  private desktopPageHeader: Locator;
   private desktopLink: Locator;
 
   constructor(page: Page) {
     this.elementMouseActionUtil = new ElementMouseActionUtil(page);
 
-    this.desktopHeader = page.getByRole('heading', { name: 'Desktops' });
-    this.desktopLink = page.getByRole('link', { name: 'Build your own cheap computer' });
+    this.desktopPageHeader = page.getByRole('heading', { name: 'Desktops' });
+    this.desktopLink = page.getByRole('link', { name: 'Build your own cheap computer', exact: true });
   }
 
   async verifyDesktopPageIsDisplayed(): Promise<string | null> {
-    return await this.desktopHeader.textContent();
+    return await this.desktopPageHeader.textContent();
   }
 
   async clickBuildYourOwnCheapComputer() {

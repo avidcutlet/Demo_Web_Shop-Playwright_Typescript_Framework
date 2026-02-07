@@ -12,7 +12,7 @@ export class JewelryPage {
     this.elementMouseActionUtil = new ElementMouseActionUtil(page);
 
     this.jewelryHeader = page.getByRole('heading', { name: 'Jewelry' });
-    this.jewelryLink = page.getByRole('link', { name: 'Create Your Own Jewelry' });
+    this.jewelryLink = page.getByRole('link', { name: 'Create Your Own Jewelry', exact: true });
   }
 
   async verifyCreateYourOwnJewelryLinkIsDisplayed(): Promise<string | null> {
