@@ -1,0 +1,114 @@
+{
+	"info": {
+		"_postman_id": "7bd20b1e-bc37-4bfd-8a91-f66439a47525",
+		"name": "Petstore API Automation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43848400",
+		"_collection_link": "https://postman-api-testing-1202.postman.co/workspace/Postman-API-Testing-Workspace~d7ea78f5-c99c-4cec-88f0-a12c872e344b/collection/43848400-7bd20b1e-bc37-4bfd-8a91-f66439a47525?action=share&source=collection_link&creator=43848400"
+	},
+	"item": [
+		{
+			"name": "Add New Pet (POST)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							" pm.response.to.have.status(200);",
+							"});",
+							"",
+							"var responseText = pm.response.text();",
+							"",
+							"// Extract petId as STRING using regex (no JS number parsing)",
+							"var petIdMatch = responseText.match(/\"id\"\\s*:\\s*(\\d+)/);",
+							"",
+							"pm.test(\"Pet ID exists in response\", function () {",
+							" pm.expect(petIdMatch).to.not.be.null;",
+							"});",
+							"",
+							"// Save exact petId as string",
+							"pm.environment.set(\"petId\", petIdMatch[1]);",
+							"",
+							"pm.test(\"Pet ID stored without precision loss\", function () {",
+							" pm.expect(pm.environment.get(\"petId\"))",
+							"  .to.eql(petIdMatch[1]);",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {},
+						"requests": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n \"category\": {\n  \"id\": 1,\n  \"name\": \"dog\"\n },\n \"name\": \"AI_Dog\",\n \"photoUrls\": [\"string\"],\n \"tags\": [\n  {\n   \"id\": 1,\n   \"name\": \"friendly\"\n  }\n ],\n \"status\": \"available\"\n}"
+				},
+				"url": {
+					"raw": "https://petstore.swagger.io/v2/pet",
+					"protocol": "https",
+					"host": [
+						"petstore",
+						"swagger",
+						"io"
+					],
+					"path": [
+						"v2",
+						"pet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Pet By ID (GET)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test('Status code is 200', function () {",
+							" pm.response.to.have.status(200);",
+							"});",
+							"",
+							"var jsonData = pm.response.json();",
+							"",
+							"pm.test('Correct pet is returned', function () {",
+							" pm.expect(jsonData.id).to.eql(Number(pm.environment.get('petId')));",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://petstore.swagger.io/v2/pet/{{petId}}",
+					"protocol": "https",
+					"host": [
+						"petstore",
+						"swagger",
+						"io"
+					],
+					"path": [
+						"v2",
+						"pet",
+						"{{petId}}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
