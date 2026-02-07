@@ -12,10 +12,10 @@ export class ComputersPage {
     this.elementMouseActionUtil = new ElementMouseActionUtil(page);
 
     this.computersHeader = page.getByRole('heading', { name: 'Computers' });
-    this.desktopsCategory = page.getByRole('link', { name: 'Desktops' });
+    this.desktopsCategory = page.getByRole('link', { name: 'Desktops' }).nth(2);
   }
 
-  async verifyDesktopsCategoryIsDisplayed(): Promise<string | null> {
+  async verifyComputersPageIsDisplayed(): Promise<string | null> {
     return await this.computersHeader.textContent();
   }
 

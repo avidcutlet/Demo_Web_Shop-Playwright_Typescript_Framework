@@ -12,7 +12,8 @@ export class ComputingAndInternetPage {
     this.elementMouseActionUtil = new ElementMouseActionUtil(page);
 
     this.computingAndInternetHeader = page.getByRole('heading', { name: 'Computing and Internet' });
-    this.addToCartBtn = page.getByRole('button', { name: 'Add to cart' });
+    this.addToCartBtn = page.locator('#add-to-cart-button-13');
+
   }
 
   async verifyComputingAndInternetPageIsDisplayed(): Promise<string | null> {

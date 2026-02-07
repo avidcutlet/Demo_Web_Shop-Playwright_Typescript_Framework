@@ -11,8 +11,12 @@ export class CompletedCheckoutPage {
   constructor(page: Page) {
     this.elementMouseActionUtil = new ElementMouseActionUtil(page);
 
-    this.completedCheckoutHeader = page.locator('.title >> strong');
+    this.completedCheckoutHeader = page.getByRole('heading', { name: 'Thank you' });
     this.orderDetailsLink = page.getByRole('link', { name: 'Click here for order details.' });
+  }
+
+  async verifyCompletedCheckoutIsDisplayed(): Promise<string | null> {
+    return await this.completedCheckoutHeader.textContent();
   }
 
   async clickOrderDetailsLink() {

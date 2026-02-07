@@ -12,7 +12,7 @@ export class BooksPage {
     this.elementMouseActionUtil = new ElementMouseActionUtil(page);
 
     this.booksHeader = page.getByRole('heading', { name: 'Books' });
-    this.categoryLink = page.getByRole('link', { name: 'Computing and Internet' });
+    this.categoryLink = page.getByRole('link', { name: 'Computing and Internet', exact: true });
   }
 
   async verifyBooksPageIsDisplayed(): Promise<string | null> {

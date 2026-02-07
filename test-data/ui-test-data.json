@@ -1,0 +1,20 @@
+{
+  "Header": {
+    "BooksPageHeader": "Books",
+    "BuildYourOwnCheapComputerPageHeader": "Build your own cheap computer",
+    "CartPageHeader": "Shopping cart",
+    "CheckoutPageHeader": "Checkout",
+    "CompletedCheckoutPageHeader": "Thank you",
+    "ComputersPageHeader": "Computers",
+    "ComputingAndInternetPageHeader": "Computing and Internet",
+    "CreateYourOwnJewelryPageHeader": "Create Your Own Jewelry",
+    "DesktopsPageHeader": "Desktops",
+    "JewelryPageHeader": "Jewelry",
+    "OrderDetailsPageHeader": "Order information",
+    "RegistrationPageHeader": "Register"
+  },
+  "Notification": {
+    "SuccessRegistrationMsg": "Your registration completed",
+    "SuccessAddToCartMsg": "The product has been added to your"
+  }
+}
