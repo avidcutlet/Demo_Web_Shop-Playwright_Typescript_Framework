@@ -1,0 +1,144 @@
+2026-02-07T02:26:40.265Z - INFO - Test Suite is Starting
+
+2026-02-07T02:26:49.709Z - INFO - The test is running: TC1 - Successful User Place Order with Multiple Products
+
+2026-02-07T02:26:56.446Z - INFO - CLICKED ON ELEMENT getByRole('link', { name: 'Register' })
+
+2026-02-07T02:26:56.596Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Demo_Web_Shop-Playwright_Typescript_Framework\reports\screenshots\2026-02-07_10-26-37\Verify User Can Place Order with Multiple Products via UI\TC1 - Successful User Place Order with Multiple Products\2026-02-07_10-26-56-448.png
+
+2026-02-07T02:26:57.657Z - INFO - CLICKED ON ELEMENT getByLabel('Male', { exact: true })
+
+2026-02-07T02:26:57.812Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Demo_Web_Shop-Playwright_Typescript_Framework\reports\screenshots\2026-02-07_10-26-37\Verify User Can Place Order with Multiple Products via UI\TC1 - Successful User Place Order with Multiple Products\2026-02-07_10-26-57-658.png
+
+2026-02-07T02:26:58.774Z - INFO - FILLED DATA INTO getByLabel('First name:')
+
+2026-02-07T02:26:58.935Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Demo_Web_Shop-Playwright_Typescript_Framework\reports\screenshots\2026-02-07_10-26-37\Verify User Can Place Order with Multiple Products via UI\TC1 - Successful User Place Order with Multiple Products\2026-02-07_10-26-58-779.png
+
+2026-02-07T02:26:59.891Z - INFO - FILLED DATA INTO getByLabel('Last name:')
+
+2026-02-07T02:26:59.999Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Demo_Web_Shop-Playwright_Typescript_Framework\reports\screenshots\2026-02-07_10-26-37\Verify User Can Place Order with Multiple Products via UI\TC1 - Successful User Place Order with Multiple Products\2026-02-07_10-26-59-892.png
+
+2026-02-07T02:27:01.002Z - INFO - FILLED DATA INTO getByLabel('Email:')
+
+2026-02-07T02:27:01.096Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Demo_Web_Shop-Playwright_Typescript_Framework\reports\screenshots\2026-02-07_10-26-37\Verify User Can Place Order with Multiple Products via UI\TC1 - Successful User Place Order with Multiple Products\2026-02-07_10-27-01-003.png
+
+2026-02-07T02:27:02.084Z - INFO - FILLED DATA INTO getByLabel('Password:', { exact: true })
+
+2026-02-07T02:27:02.224Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Demo_Web_Shop-Playwright_Typescript_Framework\reports\screenshots\2026-02-07_10-26-37\Verify User Can Place Order with Multiple Products via UI\TC1 - Successful User Place Order with Multiple Products\2026-02-07_10-27-02-085.png
+
+2026-02-07T02:27:03.170Z - INFO - FILLED DATA INTO getByLabel('Confirm password:')
+
+2026-02-07T02:27:03.251Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Demo_Web_Shop-Playwright_Typescript_Framework\reports\screenshots\2026-02-07_10-26-37\Verify User Can Place Order with Multiple Products via UI\TC1 - Successful User Place Order with Multiple Products\2026-02-07_10-27-03-171.png
+
+2026-02-07T02:27:05.209Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Register' })
+
+2026-02-07T02:27:05.490Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Demo_Web_Shop-Playwright_Typescript_Framework\reports\screenshots\2026-02-07_10-26-37\Verify User Can Place Order with Multiple Products via UI\TC1 - Successful User Place Order with Multiple Products\2026-02-07_10-27-05-211.png
+
+2026-02-07T02:27:07.045Z - INFO - CLICKED ON ELEMENT locator('.top-menu').getByRole('link', { name: 'Books' })
+
+2026-02-07T02:27:07.199Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Demo_Web_Shop-Playwright_Typescript_Framework\reports\screenshots\2026-02-07_10-26-37\Verify User Can Place Order with Multiple Products via UI\TC1 - Successful User Place Order with Multiple Products\2026-02-07_10-27-07-047.png
+
+2026-02-07T02:27:08.882Z - INFO - CLICKED ON ELEMENT getByRole('link', { name: 'Computing and Internet', exact: true })
+
+2026-02-07T02:27:09.009Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Demo_Web_Shop-Playwright_Typescript_Framework\reports\screenshots\2026-02-07_10-26-37\Verify User Can Place Order with Multiple Products via UI\TC1 - Successful User Place Order with Multiple Products\2026-02-07_10-27-08-883.png
+
+2026-02-07T02:27:10.247Z - INFO - CLICKED ON ELEMENT locator('#add-to-cart-button-13')
+
+2026-02-07T02:27:10.467Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Demo_Web_Shop-Playwright_Typescript_Framework\reports\screenshots\2026-02-07_10-26-37\Verify User Can Place Order with Multiple Products via UI\TC1 - Successful User Place Order with Multiple Products\2026-02-07_10-27-10-249.png
+
+2026-02-07T02:27:12.473Z - INFO - CLICKED ON ELEMENT locator('.top-menu').getByRole('link', { name: 'Computers' })
+
+2026-02-07T02:27:12.590Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Demo_Web_Shop-Playwright_Typescript_Framework\reports\screenshots\2026-02-07_10-26-37\Verify User Can Place Order with Multiple Products via UI\TC1 - Successful User Place Order with Multiple Products\2026-02-07_10-27-12-474.png
+
+2026-02-07T02:27:14.264Z - INFO - CLICKED ON ELEMENT getByRole('link', { name: 'Desktops' }).nth(2)
+
+2026-02-07T02:27:14.364Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Demo_Web_Shop-Playwright_Typescript_Framework\reports\screenshots\2026-02-07_10-26-37\Verify User Can Place Order with Multiple Products via UI\TC1 - Successful User Place Order with Multiple Products\2026-02-07_10-27-14-265.png
+
+2026-02-07T02:27:16.026Z - INFO - CLICKED ON ELEMENT getByRole('link', { name: 'Build your own cheap computer', exact: true })
+
+2026-02-07T02:27:16.154Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Demo_Web_Shop-Playwright_Typescript_Framework\reports\screenshots\2026-02-07_10-26-37\Verify User Can Place Order with Multiple Products via UI\TC1 - Successful User Place Order with Multiple Products\2026-02-07_10-27-16-027.png
+
+2026-02-07T02:27:17.381Z - INFO - CLICKED ON ELEMENT locator('#add-to-cart-button-72')
+
+2026-02-07T02:27:17.494Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Demo_Web_Shop-Playwright_Typescript_Framework\reports\screenshots\2026-02-07_10-26-37\Verify User Can Place Order with Multiple Products via UI\TC1 - Successful User Place Order with Multiple Products\2026-02-07_10-27-17-382.png
+
+2026-02-07T02:27:19.422Z - INFO - CLICKED ON ELEMENT locator('.top-menu').getByRole('link', { name: 'Jewelry' })
+
+2026-02-07T02:27:19.551Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Demo_Web_Shop-Playwright_Typescript_Framework\reports\screenshots\2026-02-07_10-26-37\Verify User Can Place Order with Multiple Products via UI\TC1 - Successful User Place Order with Multiple Products\2026-02-07_10-27-19-423.png
+
+2026-02-07T02:27:21.254Z - INFO - CLICKED ON ELEMENT getByRole('link', { name: 'Create Your Own Jewelry', exact: true })
+
+2026-02-07T02:27:21.372Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Demo_Web_Shop-Playwright_Typescript_Framework\reports\screenshots\2026-02-07_10-26-37\Verify User Can Place Order with Multiple Products via UI\TC1 - Successful User Place Order with Multiple Products\2026-02-07_10-27-21-255.png
+
+2026-02-07T02:27:22.512Z - INFO - FILLED DATA INTO locator('#product_attribute_71_10_16')
+
+2026-02-07T02:27:22.638Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Demo_Web_Shop-Playwright_Typescript_Framework\reports\screenshots\2026-02-07_10-26-37\Verify User Can Place Order with Multiple Products via UI\TC1 - Successful User Place Order with Multiple Products\2026-02-07_10-27-22-514.png
+
+2026-02-07T02:27:23.736Z - INFO - CLICKED ON ELEMENT locator('#add-to-cart-button-71')
+
+2026-02-07T02:27:23.850Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Demo_Web_Shop-Playwright_Typescript_Framework\reports\screenshots\2026-02-07_10-26-37\Verify User Can Place Order with Multiple Products via UI\TC1 - Successful User Place Order with Multiple Products\2026-02-07_10-27-23-737.png
+
+2026-02-07T02:27:25.650Z - INFO - CLICKED ON ELEMENT getByRole('link', { name: 'Shopping cart', exact: true })
+
+2026-02-07T02:27:25.748Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Demo_Web_Shop-Playwright_Typescript_Framework\reports\screenshots\2026-02-07_10-26-37\Verify User Can Place Order with Multiple Products via UI\TC1 - Successful User Place Order with Multiple Products\2026-02-07_10-27-25-652.png
+
+2026-02-07T02:27:26.930Z - INFO - CLICKED ON ELEMENT locator('#termsofservice')
+
+2026-02-07T02:27:27.025Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Demo_Web_Shop-Playwright_Typescript_Framework\reports\screenshots\2026-02-07_10-26-37\Verify User Can Place Order with Multiple Products via UI\TC1 - Successful User Place Order with Multiple Products\2026-02-07_10-27-26-931.png
+
+2026-02-07T02:27:29.266Z - INFO - CLICKED ON ELEMENT locator('#checkout')
+
+2026-02-07T02:27:29.381Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Demo_Web_Shop-Playwright_Typescript_Framework\reports\screenshots\2026-02-07_10-26-37\Verify User Can Place Order with Multiple Products via UI\TC1 - Successful User Place Order with Multiple Products\2026-02-07_10-27-29-267.png
+
+2026-02-07T02:27:30.565Z - INFO - CLICKED ON ELEMENT locator('#BillingNewAddress_CountryId')
+
+2026-02-07T02:27:30.674Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Demo_Web_Shop-Playwright_Typescript_Framework\reports\screenshots\2026-02-07_10-26-37\Verify User Can Place Order with Multiple Products via UI\TC1 - Successful User Place Order with Multiple Products\2026-02-07_10-27-30-566.png
+
+2026-02-07T02:27:31.675Z - INFO - FILLED DATA INTO getByLabel('City:')
+
+2026-02-07T02:27:31.781Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Demo_Web_Shop-Playwright_Typescript_Framework\reports\screenshots\2026-02-07_10-26-37\Verify User Can Place Order with Multiple Products via UI\TC1 - Successful User Place Order with Multiple Products\2026-02-07_10-27-31-676.png
+
+2026-02-07T02:27:32.778Z - INFO - FILLED DATA INTO getByLabel('Address 1:')
+
+2026-02-07T02:27:32.873Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Demo_Web_Shop-Playwright_Typescript_Framework\reports\screenshots\2026-02-07_10-26-37\Verify User Can Place Order with Multiple Products via UI\TC1 - Successful User Place Order with Multiple Products\2026-02-07_10-27-32-779.png
+
+2026-02-07T02:27:33.827Z - INFO - FILLED DATA INTO getByLabel('Zip / postal code:')
+
+2026-02-07T02:27:33.968Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Demo_Web_Shop-Playwright_Typescript_Framework\reports\screenshots\2026-02-07_10-26-37\Verify User Can Place Order with Multiple Products via UI\TC1 - Successful User Place Order with Multiple Products\2026-02-07_10-27-33-828.png
+
+2026-02-07T02:27:34.932Z - INFO - FILLED DATA INTO getByLabel('Phone number:')
+
+2026-02-07T02:27:35.135Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Demo_Web_Shop-Playwright_Typescript_Framework\reports\screenshots\2026-02-07_10-26-37\Verify User Can Place Order with Multiple Products via UI\TC1 - Successful User Place Order with Multiple Products\2026-02-07_10-27-34-936.png
+
+2026-02-07T02:27:36.277Z - INFO - CLICKED ON ELEMENT getByRole('button', { name: 'Continue' })
+
+2026-02-07T02:27:36.397Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Demo_Web_Shop-Playwright_Typescript_Framework\reports\screenshots\2026-02-07_10-26-37\Verify User Can Place Order with Multiple Products via UI\TC1 - Successful User Place Order with Multiple Products\2026-02-07_10-27-36-281.png
+
+2026-02-07T02:27:37.637Z - INFO - CLICKED ON ELEMENT locator('#shipping-buttons-container').getByRole('button', { name: 'Continue' })
+
+2026-02-07T02:27:37.730Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Demo_Web_Shop-Playwright_Typescript_Framework\reports\screenshots\2026-02-07_10-26-37\Verify User Can Place Order with Multiple Products via UI\TC1 - Successful User Place Order with Multiple Products\2026-02-07_10-27-37-638.png
+
+2026-02-07T02:27:38.905Z - INFO - CLICKED ON ELEMENT locator('#shipping-method-buttons-container').getByRole('button', { name: 'Continue' })
+
+2026-02-07T02:27:38.963Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Demo_Web_Shop-Playwright_Typescript_Framework\reports\screenshots\2026-02-07_10-26-37\Verify User Can Place Order with Multiple Products via UI\TC1 - Successful User Place Order with Multiple Products\2026-02-07_10-27-38-906.png
+
+2026-02-07T02:27:40.153Z - INFO - CLICKED ON ELEMENT locator('#payment-method-buttons-container').getByRole('button', { name: 'Continue' })
+
+2026-02-07T02:27:40.202Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Demo_Web_Shop-Playwright_Typescript_Framework\reports\screenshots\2026-02-07_10-26-37\Verify User Can Place Order with Multiple Products via UI\TC1 - Successful User Place Order with Multiple Products\2026-02-07_10-27-40-155.png
+
+2026-02-07T02:27:41.351Z - INFO - CLICKED ON ELEMENT locator('#payment-info-buttons-container').getByRole('button', { name: 'Continue' })
+
+2026-02-07T02:27:41.416Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Demo_Web_Shop-Playwright_Typescript_Framework\reports\screenshots\2026-02-07_10-26-37\Verify User Can Place Order with Multiple Products via UI\TC1 - Successful User Place Order with Multiple Products\2026-02-07_10-27-41-352.png
+
+2026-02-07T02:27:42.612Z - INFO - CLICKED ON ELEMENT locator('#confirm-order-buttons-container').getByRole('button', { name: 'Confirm' })
+
+2026-02-07T02:27:42.762Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Demo_Web_Shop-Playwright_Typescript_Framework\reports\screenshots\2026-02-07_10-26-37\Verify User Can Place Order with Multiple Products via UI\TC1 - Successful User Place Order with Multiple Products\2026-02-07_10-27-42-615.png
+
+2026-02-07T02:27:45.004Z - INFO - CLICKED ON ELEMENT getByRole('link', { name: 'Click here for order details.' })
+
+2026-02-07T02:27:45.115Z - INFO - Screenshot saved at: C:\Users\VonWebsterDLabajo\VS Code\Demo_Web_Shop-Playwright_Typescript_Framework\reports\screenshots\2026-02-07_10-26-37\Verify User Can Place Order with Multiple Products via UI\TC1 - Successful User Place Order with Multiple Products\2026-02-07_10-27-45-006.png
+
+2026-02-07T02:27:45.242Z - INFO - The test completed successfully: TC1 - Successful User Place Order with Multiple Products
+
+2026-02-07T02:27:45.333Z - INFO - The Suite is completed: TC1 - Successful User Place Order with Multiple Products
+
